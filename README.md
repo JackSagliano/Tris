@@ -51,4 +51,3 @@ The ViewModel acts as the game server, controlling:
 - **Local DB**: Room (AndroidX)
 - **Architecture**: MVVM with LiveData and ViewModel
 
----
