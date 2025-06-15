@@ -43,18 +43,12 @@ The ViewModel acts as the game server, controlling:
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Technologies Used
 
 - **Language**: Java
 - **UI**: XML + Android View system
 - **Remote DB**: Firebase Realtime Database
 - **Local DB**: Room (AndroidX)
 - **Architecture**: MVVM with LiveData and ViewModel
-- **Other Libraries**:
-  - Material Design
-  - ConstraintLayout
-  - Firebase BOM
-  - RoundedImageView
-  - SDPs (for screen size adaptation)
 
 ---
