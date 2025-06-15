@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#182460">
+
+    <TextView
+        android:id="@+id/textView_tris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/myfont"
+        android:text="TRIS!"
+        android:textColor="@color/white"
+        android:textSize="100sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/griglia"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sfondo_griglia_di_gioco"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/cella1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/cella2"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/cella3"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/cella4"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/cella5"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/cella6"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/cella7"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/cella8"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/cella9"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cella_griglia"
+                android:clickable="true"
+                android:padding="20dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

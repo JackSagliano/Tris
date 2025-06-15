@@ -1,0 +1,40 @@
+# Android/Gradle
+.gradle/
+build/
+*/build/
+local.properties
+*.iml
+.idea/
+.cxx/
+.externalNativeBuild/
+captures/
+output.json
+
+# Firebase 
+app/google-services.json
+
+# Keystore (non caricare mai le tue chiavi su Git!)
+*.jks
+*.keystore
+
+# Sistemi operativi
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+
+# APKs e file generati
+*.apk
+*.ap_
+*.dex
+*.class
+
+# VS Code (se lo usi)
+.vscode/
+
+# IntelliJ/Android Studio
+out/
+
+# Backup files
+*.orig

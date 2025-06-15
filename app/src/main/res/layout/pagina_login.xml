@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#182460"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/accedi_titolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accesso"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="#101132"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nome_utente_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/username_1_64"
+            app:tint="#FFFFFF"></ImageView>
+
+        <EditText
+            android:id="@+id/nome_utente_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#101132"
+            android:hint="Inserisci nome utente"
+            android:maxLength="12"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="#101132"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/password_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/password_19_64"
+            app:tint="#FFFFFF"></ImageView>
+
+        <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#101132"
+            android:hint="Inserisci password"
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"></EditText>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/bottone_spigoli_rotondi"
+        android:text="Accedi"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+
+        android:id="@+id/non_hai_un_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:text="Non hai un account?"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/registrati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:text="Registrati"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProgettoLAMTris</string>
+    <string name="sembra_che_tu_abbia_lasciato_una_partita_in_sospeso">Sembra che tu abbia lasciato una partita in sospeso</string>
+    <string name="riprendi_partita">Riprendi partita</string>
+    <string name="desideri_riprenderla">Desideri riprenderla?</string>
+    <string name="abbandona_partita">Abbandona partita</string>
+</resources>
