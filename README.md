@@ -4,7 +4,7 @@
 
 ---
 
-## 📱 Features
+## 📌 Features
 
 - **🔐 Authentication System**  
   Secure login and registration. All data is stored in Firebase Realtime Database.
