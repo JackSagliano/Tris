@@ -6,28 +6,28 @@
 
 ## 📌 Features
 
-- **🔐 Authentication System**  
+ **🔐 Authentication System**  
   Secure login and registration. All data is stored in Firebase Realtime Database.
 
-- **👤 User Profile**  
+ **👤 User Profile**  
   View registration date, last access, and match stats.
 
-- **🏆 Leaderboard**  
+ **🏆 Leaderboard**  
   Compete in public games and climb the global rankings. Private and offline matches do not affect your score.
 
-- **🌐 Public Matches**  
+ **🌐 Public Matches**  
   Real-time matchmaking with a 10-second turn timer. Players have 40 seconds to reconnect before forfeiting.
 
-- **🔒 Private Matches**  
+ **🔒 Private Matches**  
   Create a game room with a custom password to challenge a friend. Same rules apply as public matches.
 
-- **🤖 Offline Mode vs AI**  
+ **🤖 Offline Mode vs AI**  
   Train against three levels of AI:
   - **Easy**: random moves
   - **Medium**: detects win conditions
   - **Hard**: detects win conditions and blocks player strategies
 
-- **💾 Game Resume (Room)**  
+ **💾 Game Resume (Room)**  
   Unfinished games are saved locally using Room and can be resumed later.
 
 ---
