@@ -1,6 +1,6 @@
 # 📱 TRIS! – Android Tic-Tac-Toe Game
 
-**TRIS!** is a mobile Android app inspired by the classic Tic-Tac-Toe game (3x3 grid), developed by **Giacomo Sagliano** as part of a university project. With a vertical layout and sleek interface, it adds multiplayer functionality and strategic features for a modern experience.
+**TRIS!** is a mobile Android app inspired by the classic Tic-Tac-Toe game (3x3 grid)
 
 ---
 
